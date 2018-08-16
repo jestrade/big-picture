@@ -79,42 +79,38 @@ class App extends Component {
 				</div>
 			</section>
 
-			<div>
+			<section>
 				<div>
-					<div>
-						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
-					</div>
-					<div>
-						<form method="post" action="#">
-							<div><input type="text" name="name" placeholder="Name" /></div>
-							<div><input type="email" name="email" placeholder="Email" /></div>
-							<div><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-							<div>
-								<input type="submit" value="Send Message" />
-							</div>
-						</form>
-					</div>
+					<h2>Say Hello.</h2>
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+					
+					<form method="post" action="#">
+						<div><input type="text" name="name" placeholder="Name" /></div>
+						<div><input type="email" name="email" placeholder="Email" /></div>
+						<div><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+						<div>
+							<input type="submit" value="Send Message" />
+						</div>
+					</form>
 				</div>
-			</div>
+			</section>
 
-			<div>
+			<footer>
 
-				<!-- Icons -->
-					<ul>
-						<li><a href="#"><span>Twitter</span></a></li>
-						<li><a href="#"><span>Facebook</span></a></li>
-						<li><a href="#"><span>Instagram</span></a></li>
-						<li><a href="#"><span>LinkedIn</span></a></li>
-						<li><a href="#"><span>Dribbble</span></a></li>
-						<li><a href="#"><span>Pinterest</span></a></li>
-					</ul>
+				<ul>
+					<li><a href="#"><span>Twitter</span></a></li>
+					<li><a href="#"><span>Facebook</span></a></li>
+					<li><a href="#"><span>Instagram</span></a></li>
+					<li><a href="#"><span>LinkedIn</span></a></li>
+					<li><a href="#"><span>Dribbble</span></a></li>
+					<li><a href="#"><span>Pinterest</span></a></li>
+				</ul>
 
-					<ul>
-						<li>&copy; Untitled</li><li>Design: <a href="#">HTML5</a></li>
-					</ul>
+				<ul>
+					<li>&copy; Untitled</li><li>Design: <a href="#">HTML5</a></li>
+				</ul>
 
-			</div>
+			</footer>
 	  </main>
     );
   }
