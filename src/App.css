@@ -1,19 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a{
+	text-decoration: none
+}
+
 header{
 	background: #FFF;
 	height: 50px
 }
+header h1{
+	font-size: 22px;
+	margin:0;
+	padding: 14px 0 0 10px
+}
 header nav ul{
 	position: absolute;
+	margin:0;
+	padding: 20px 0 0 0;
 	right:0;
 	top: 0
 }
 header nav ul li{
+	border-right: 1px solid #6A6D7C;
 	display: inline;
-	margin-right:25px
+	margin-right:25px;
+	padding-right: 25px
+}
+header nav ul li:last-child{
+	border-right: none;
+	padding-right: 0
 }
 header nav ul li a{
-	color: #6A6D7C
+	color: #6A6D7C;
+	transition: all ease 1s;
 }
 header nav ul li a:hover{
-	color: #9C969B
+	color: #FF0000
+}
+section{
+	min-height: 700px
+}
+section div{
+	margin:0 auto;
+	width: 900px
+}
+section h2{
+	font-size: 4.25em;
+	margin:0;
+	padding:300px 0 0 0;
+	text-align: center
+}
+section p{
+	font-size: 19px;
+	margin:0;
+	padding:0;
+	text-align: center
+}
+
+section.one{
+	background-image: linear-gradient(#6A6572, #7F7B84)
+}
+section.one h2{
+	color: #FFF;
+}
+section.one p{
+	color: #FFF;
+}
+section.four{
+	background: #FFF
+}
+section.four h2{
+	color: #555;
+}
+section.four p{
+	color: #555;
+}
+section.four ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin:0;
+	padding: 0
+}
+section.four ul li{
+	list-style-type:none;
+	margin:0;
+	padding: 0
+	
 }
