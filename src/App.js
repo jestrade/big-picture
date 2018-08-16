@@ -57,22 +57,22 @@ class App extends Component {
 
 					<ul>
 						<li>
-							<a href="images/fulls/01.jpg"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
+							<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="The Anonymous Red" alt="" /></a>
 						</li>
 						<li>
-							<a href="images/fulls/02.jpg"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
+							<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Airchitecture II" alt="" /></a>
 						</li>
 						<li>
-							<a href="images/fulls/03.jpg"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
+							<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Air Lounge" alt="" /></a>
 						</li>
 						<li>
-							<a href="images/fulls/04.jpg"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
+							<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Carry on" alt="" /></a>
 						</li>
 						<li>
-							<a href="images/fulls/05.jpg"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
+							<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="The sparkling shell" alt="" /></a>
 						</li>
 						<li>
-							<a href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
+							<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Bent IX" alt="" /></a>
 						</li>
 					</ul>
 
