@@ -1,0 +1,19 @@
+$font: sans-serif;
+$main-color: #444;
+@mixin reset($value){
+	margin: $value;
+	padding: $value;	
+}
+
+body {
+	color:$main-color;
+	font-family: $font;
+	@include reset(0);
+}
+a{
+	text-decoration: none
+}
+@import "Components/header";
+@import "Components/section"; 
+@import "Components/footer";
+@import "Components/form"; 

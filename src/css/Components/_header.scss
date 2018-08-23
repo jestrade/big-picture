@@ -1,0 +1,33 @@
+header{
+	background: #FFF;
+	height: 50px
+	h1{
+		font-size: 22px;
+		margin:0;
+		padding: 14px 0 0 10px
+	}
+	nav ul{
+		position: absolute;
+		margin:0;
+		padding: 20px 0 0 0;
+		right:0;
+		top: 0;
+		li{
+			border-right: 1px solid #6A6D7C;
+			display: inline;
+			margin-right:25px;
+			padding-right: 25px;
+			a{
+				color: #6A6D7C;
+				transition: all ease 1s;
+			}
+			a:hover{
+				color: #FF0000
+			}
+		}
+		li:last-child{
+			border-right: none;
+			padding-right: 0
+		}
+	}
+}
