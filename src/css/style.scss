@@ -13,6 +13,10 @@ body {
 a{
 	text-decoration: none
 }
+.container{
+	margin:0 auto;
+	width: 900px;
+}
 @import "Components/header";
 @import "Components/section"; 
 @import "Components/footer";

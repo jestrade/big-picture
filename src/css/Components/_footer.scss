@@ -1,1 +1,21 @@
-footer{}
+footer{
+	background: #444444;
+	padding:20px 0 30px 0;
+	ul{
+		@include reset(0);
+		li{
+			@include reset(0);
+			display:inline;
+			color:#FFF;
+			list-style-type:none;
+			margin-right:10px;
+			a{
+				color:#FFF;
+			}
+			a:hover{
+				color:#FFF;				
+				opacity:0.5;
+			}
+		}
+	}
+}

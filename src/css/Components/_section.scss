@@ -1,9 +1,5 @@
 section{
 	min-height: 700px;
-	div{
-		margin:0 auto;
-		width: 900px
-	}
 	h2{
 		font-size: 4.25em;
 		margin:0;
@@ -41,7 +37,7 @@ section.four{
 		padding: 0;
 		li{
 			list-style-type:none;
-			margin:0;
+			margin: 0 10px 10px 0;
 			padding: 0;	
 		}
 	}

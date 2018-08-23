@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import './normalize.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './icomoon/style.css';
+import './css/style.scss';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './css/style.scss';
 
 class App extends Component {
   render() {
@@ -21,7 +20,7 @@ class App extends Component {
 		</header>
 
 		<section class="one">
-			<div>
+			<div class="container">
 				<h2>Hey.</h2>
 				<p>Welcome to <strong>Big Picture</strong> a responsive site template designed
 				by <a href="#">HTML5</a>, built on <a href="#">Builder</a>,
@@ -30,7 +29,7 @@ class App extends Component {
 		</section>
 
 		<section class="two">
-			<div>
+			<div class="container">
 				<h2>What I Do</h2>
 				<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 				Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
@@ -40,7 +39,7 @@ class App extends Component {
 		</section>
 
 		<section class="three">
-			<div>
+			<div class="container">
 				<h2>Who I Am</h2>
 				<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 				Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
@@ -50,7 +49,7 @@ class App extends Component {
 		</section>
 
 		<section class="four">
-			<div>
+			<div class="container">
 				<h2>My Work</h2>
 				<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 				Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
@@ -59,25 +58,25 @@ class App extends Component {
 
 				<ul>
 					<li>
-						<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="The Anonymous Red" alt="" /></a>
+						<a href="https://dummyimage.com/400x282/000000/fff"><img src="https://dummyimage.com/400x282/000000/fff" title="The Anonymous Red" alt="" /></a>
 					</li>
 					<li>
-						<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Airchitecture II" alt="" /></a>
+						<a href="https://dummyimage.com/400x282/000000/fff"><img src="https://dummyimage.com/400x282/000000/fff" title="Airchitecture II" alt="" /></a>
 					</li>
 					<li>
-						<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Air Lounge" alt="" /></a>
+						<a href="https://dummyimage.com/400x282/000000/fff"><img src="https://dummyimage.com/400x282/000000/fff" title="Air Lounge" alt="" /></a>
 					</li>
 					<li>
-						<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Carry on" alt="" /></a>
+						<a href="https://dummyimage.com/400x282/000000/fff"><img src="https://dummyimage.com/400x282/000000/fff" title="Carry on" alt="" /></a>
 					</li>
 					<li>
-						<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="The sparkling shell" alt="" /></a>
+						<a href="https://dummyimage.com/400x282/000000/fff"><img src="https://dummyimage.com/400x282/000000/fff" title="The sparkling shell" alt="" /></a>
 					</li>
 					<li>
-						<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Bent IX" alt="" /></a>
+						<a href="https://dummyimage.com/400x282/000000/fff"><img src="https://dummyimage.com/400x282/000000/fff" title="Bent IX" alt="" /></a>
 					</li>
 					<li>
-						<a href="https://dummyimage.com/450x282/000000/fff"><img src="https://dummyimage.com/450x282/000000/fff" title="Bent IX" alt="" /></a>
+						<a href="https://dummyimage.com/400x282/000000/fff"><img src="https://dummyimage.com/400x282/000000/fff" title="Bent IX" alt="" /></a>
 					</li>
 				</ul>
 
@@ -85,35 +84,39 @@ class App extends Component {
 		</section>
 
 			<section class="five">
-				<div>
+				<div class="container">
 					<h2>Say Hello.</h2>
 					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
 					
 					<form method="post" action="#">
-						<div><input type="text" name="name" placeholder="Name" /></div>
-						<div><input type="email" name="email" placeholder="Email" /></div>
-						<div><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-						<div>
-							<input type="submit" value="Send Message" />
+						<div class="form-group">
+							<input class="form-control" type="text" name="name" placeholder="Name" />
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="email" name="email" placeholder="Email" /></div>
+						<div  class="form-group">
+							<textarea class="form-control" name="message" placeholder="Message" rows="6"></textarea></div>
+						<div class="form-group">
+							<button class="btn btn-primary btn-block" type="submit"  >Send Message</button>
 						</div>
 					</form>
 				</div>
 			</section>
 
 			<footer>
+				<div class="container">
+					<ul>
+						<li>Follow us:</li>
+						<li><a href="#"><span class="icon-twitter"></span></a></li>
+						<li><a href="#"><span class="icon-facebook2"></span></a></li>
+						<li><a href="#"><span class="icon-instagram"></span></a></li>
+						<li><a href="#"><span class="icon-linkedin"></span></a></li>
+					</ul>
 
-				<ul>
-					<li><a href="#"><span>Twitter</span></a></li>
-					<li><a href="#"><span>Facebook</span></a></li>
-					<li><a href="#"><span>Instagram</span></a></li>
-					<li><a href="#"><span>LinkedIn</span></a></li>
-					<li><a href="#"><span>Dribbble</span></a></li>
-					<li><a href="#"><span>Pinterest</span></a></li>
-				</ul>
-
-				<ul>
-					<li>&copy; Untitled</li><li>Design: <a href="#">HTML5</a></li>
-				</ul>
+					<ul>
+						<li>&copy; Untitled</li><li>Design: <a href="#">HTML5</a></li>
+					</ul>
+				</div>
 
 			</footer>
 	  </main>
